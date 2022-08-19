@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height:90px;
+}
+.image1{
+    height: 80%;
+    width: 120%;
+    padding-top: 10px;
+    position: relative;
+    right: 50px;
+}
+.link1 ,.link2,.link4 {
+    width: 50px;
+    height:50px;
+    border-radius: 5px;
+}
+.link3{
+    width: 80px;
+    height:50px;
+    border-radius: 5px;
+}
+.about-us a {
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+}
+.nav-links{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    width: 40px;
+}
+.nav-links :hover{
+    transform: scale(1.1);
+}
+h2{
+    margin-bottom: 10px;
+}
+.write-up {
+width: 50%;
+text-align: left;
+margin: auto;
+background-color:rgb(16, 16, 20);
+padding:20px 15px 10px 20px;
+letter-spacing: 2px;
+line-height: 200%;
+font-family: "Montserrat", sans-serif;
+margin-top: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(56, 56, 70);
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 400px){
+    .nav-links{
+        display: list-item;
+    }
+}
+    
